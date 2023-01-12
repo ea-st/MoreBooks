@@ -1,0 +1,14 @@
+module Base
+{
+	model [what]
+    {
+        mesh = ,
+        texture = ,
+		scale = 0.3,
+	} 
+
+	
+}	
+
+
+-- currently irrelevant file

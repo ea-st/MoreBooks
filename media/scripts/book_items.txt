@@ -1,0 +1,1449 @@
+module Books {
+
+
+      /------------------------/
+
+    item Book {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-40,
+		DisplayName	=	Book,
+		StressChange	=	-40,
+		Icon	=	Book,
+		BoredomChange	=	-50,
+		StaticModel = Book,
+		WorldStaticModel = BookClosedGround,
+	}
+
+    item Nineteen_Eighty-Four {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Nineteen Eighty-Four,
+		StressChange	=	-40,
+		Icon	=	Book,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_1,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedRedPink_Ground,
+	}
+	
+	item The_Ego_and_Its_Own {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Ego and Its Own,
+		StressChange	=	-40,
+		Icon	=	Book7,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_2,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedGrey_Ground,
+	}
+	
+		item The_Communist_Manifesto {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Communist Manifesto,
+		StressChange	=	-40,
+		Icon	=	Book,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_3,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedRedPink_Ground,
+	}
+	
+		item Frankenstein {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Frankenstein,
+		StressChange	=	-40,
+		Icon	=	Book3,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_4,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedLightGreen_Ground,
+	}
+	
+	
+		item A_Tale_of_Two_Cities {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: A Tale of Two Cities,
+		StressChange	=	-40,
+		Icon	=	Book7,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_5,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedGrey_Ground,
+	}
+	
+		item The_Hobbit {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Hobbit,
+		StressChange	=	-40,
+		Icon	=	Book5,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_6,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedPurple_Ground,
+	}
+	
+		item And_Then_There_Were_None {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: And Then There Were None,
+		StressChange	=	-40,
+		Icon	=	Book8,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_7,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedBrown_Ground,
+	}
+	
+		item You_Can_Heal_Your_Life {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: You Can Heal Your Life,
+		StressChange	=	-40,
+		Icon	=	Book10,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_8,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedGreen_Ground,
+	}
+	
+		item Charlotte's_Web {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Charlotte's Web,
+		StressChange	=	-40,
+		Icon	=	Book,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_9,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedRedPink_Ground,
+	}
+	
+		item The_Tale_of_Peter_Rabbit {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Tale of Peter Rabbit,
+		StressChange	=	-40,
+		Icon	=	Book10,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_10,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedGreen_Ground,
+	}
+	
+		item To_Kill_a_Mockingbird {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: To Kill a Mockingbird,
+		StressChange	=	-40,
+		Icon	=	Book10,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_11,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedGreen_Ground,
+	}
+	
+		item The_Adventures_of_Sherlock_Holmes {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Adventures of Sherlock Holmes,
+		StressChange	=	-40,
+		Icon	=	Book8,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_12,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedBrown_Ground,
+	}
+	
+		item The_Prophet {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Prophet,
+		StressChange	=	-40,
+		Icon	=	Book4,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_13,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedYellowBrown_Ground,
+	}
+	
+		item The_Exorcist {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Exorcist,
+		StressChange	=	-40,
+		Icon	=	Book,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_14,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedRedPink_Ground,
+	}
+	
+		item The_Neverending_Story {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Neverending Story,
+		StressChange	=	-40,
+		Icon	=	Book10,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_15,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedGreen_Ground,
+	}
+	
+		item Matilda {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Matilda,
+		StressChange	=	-40,
+		Icon	=	Book5,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_16,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedPurple_Ground,
+	}
+	
+		item A_Light_in_the_Attic {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: A Light in the Attic,
+		StressChange	=	-40,
+		Icon	=	Book4,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_17,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedYellowBrown_Ground,
+	}
+	
+		item The_Giving_Tree {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Giving Tree,
+		StressChange	=	-40,
+		Icon	=	Book2,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_18,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedLightBlue_Ground,
+	}
+	
+		item Dune {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Dune,
+		StressChange	=	-40,
+		Icon	=	Book10,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_19,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedGreen_Ground,
+	}
+	
+		item Nancy_Drew {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Nancy Drew,
+		StressChange	=	-40,
+		Icon	=	Book10,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_20,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedGreen_Ground,
+	}
+	
+		item The_Chronicles_of_Narnia {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Chronicles of Narnia,
+		StressChange	=	-40,
+		Icon	=	Book2,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_21,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedLightBlue_Ground,
+	}
+	
+		item Herbert_West--Reanimator {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Herbert West--Reanimator,
+		StressChange	=	-40,
+		Icon	=	Book11,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_22,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedYellow_Ground,
+	}
+	
+		item Conan_the_Defiant {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Conan the Defiant,
+		StressChange	=	-40,
+		Icon	=	Book10,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_23,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedGreen_Ground,
+	}
+	
+		item On_Stranger_Tides {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: On Stranger Tides,
+		StressChange	=	-40,
+		Icon	=	Book8,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_24,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedBrown_Ground,
+	}
+	
+		item Pride_and_Prejudice {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Pride and Prejudice,
+		StressChange	=	-40,
+		Icon	=	Book11,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_25,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedYellow_Ground,
+	}
+	
+		item The_Shining {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Shining,
+		StressChange	=	-40,
+		Icon	=	Book2,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_26,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedLightBlue_Ground,
+	}
+	
+		item It {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: It,
+		StressChange	=	-40,
+		Icon	=	Book7,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_27,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedGrey_Ground,
+	}
+	
+		item Lord_of_the_Flies {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Lord of the Flies,
+		StressChange	=	-40,
+		Icon	=	Book9,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_28,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedDarkCyan_Ground,
+	}
+	
+		item Animal_Farm {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Animal Farm,
+		StressChange	=	-40,
+		Icon	=	Book2,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_29,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedLightBlue_Ground,
+	}
+	
+		item Catch-22 {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Catch-22,
+		StressChange	=	-40,
+		Icon	=	Book8,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_30,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedBrown_Ground,
+	}
+	
+		item To_the_Lighthouse {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: To the Lighthouse,
+		StressChange	=	-40,
+		Icon	=	Book5,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_31,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedPurple_Ground,
+	}
+	
+		item Housekeeping {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Housekeeping,
+		StressChange	=	-40,
+		Icon	=	Book10,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_32,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedGreen_Ground,
+	}
+	
+		item Under_the_Net {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Under the Net,
+		StressChange	=	-40,
+		Icon	=	Book,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_33,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedRedPink_Ground,
+	}
+	
+		item An_American_Tragedy {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: An American Tragedy,
+		StressChange	=	-40,
+		Icon	=	Book4,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_34,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedYellowBrown_Ground,
+	}
+	
+		item A_Handful_of_Dust {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: A Handful of Dust,
+		StressChange	=	-40,
+		Icon	=	Book9,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_35,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedDarkCyan_Ground,
+	}
+	
+		item At_Swim-Two-Birds {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: At Swim-Two-Birds,
+		StressChange	=	-40,
+		Icon	=	Book2,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_36,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedLightBlue_Ground,
+	}
+	
+		item Herzog {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Herzog,
+		StressChange	=	-40,
+		Icon	=	Book11,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_37,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedYellow_Ground,
+	}
+	
+		item Death_Comes_for_the_Archbishop {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Death Comes for the Archbishop,
+		StressChange	=	-40,
+		Icon	=	Book3,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_38,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedLightGreen_Ground,
+	}
+	
+		item The_Bridge_of_San_Luis_Rey {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Bridge of San Luis Rey,
+		StressChange	=	-40,
+		Icon	=	Book4,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_39,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedYellowBrown_Ground,
+	}
+	
+		item The_Power_and_the_Glory {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Power and the Glory,
+		StressChange	=	-40,
+		Icon	=	Book2,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_40,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedLightBlue_Ground,
+	}
+	
+		item The_Big_Sleep {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Big Sleep,
+		StressChange	=	-40,
+		Icon	=	Book9,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_41,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedDarkCyan_Ground,
+	}
+	
+		item The_Death_of_the_Heart {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Death of the Heart,
+		StressChange	=	-40,
+		Icon	=	Book5,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_42,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedPurple_Ground,
+	}
+	
+		item Loving {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Loving,
+		StressChange	=	-40,
+		Icon	=	Book10,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_43,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedGreen_Ground,
+	}
+	
+		item Possession {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Possession,
+		StressChange	=	-40,
+		Icon	=	Book9,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_44,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedDarkCyan_Ground,
+	}
+	
+		item Slaughterhouse-Five {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Slaughterhouse-Five,
+		StressChange	=	-40,
+		Icon	=	Book2,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_45,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedLightBlue_Ground,
+	}
+	
+		item The_Catcher_in_the_Rye {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Catcher in the Rye,
+		StressChange	=	-40,
+		Icon	=	Book,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_46,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedRedPink_Ground,
+	}
+	
+		item The_Great_Gatsby {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Great Gatsby,
+		StressChange	=	-40,
+		Icon	=	Book3,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_47,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedLightGreen_Ground,
+	}
+	
+		item American_Psycho {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: American Psycho,
+		StressChange	=	-40,
+		Icon	=	Book9,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_48,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedDarkCyan_Ground,
+	}
+	
+		item A_Clockwork_Orange {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: A Clockwork Orange,
+		StressChange	=	-40,
+		Icon	=	Book5,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_49,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedPurple_Ground,
+	}
+	
+		item Fahrenheit_451 {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Fahrenheit 451,
+		StressChange	=	-40,
+		Icon	=	Book2,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_50,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedLightBlue_Ground,
+	}
+	
+		item The_Odyssey {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Odyssey,
+		StressChange	=	-40,
+		Icon	=	Book7,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_51,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedGrey_Ground,
+	}
+	
+		item The_Iliad {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Iliad,
+		StressChange	=	-40,
+		Icon	=	Book4,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_52,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedYellowBrown_Ground,
+	}
+	
+		item The_Trial {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Trial,
+		StressChange	=	-40,
+		Icon	=	Book11,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_53,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedYellow_Ground,
+	}
+	
+		item Madame_Bovary {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Madame Bovary,
+		StressChange	=	-40,
+		Icon	=	Book2,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_54,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedLightBlue_Ground,
+	}
+	
+		item Journey_to_the_End_of_the_Night {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Journey to the End of the Night,
+		StressChange	=	-40,
+		Icon	=	Book9,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_55,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedDarkCyan_Ground,
+	}
+	
+		item A_Doll's_House {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: A Doll's House,
+		StressChange	=	-40,
+		Icon	=	Book8,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_56,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedBrown_Ground,
+	}
+	
+		item Invisible_Man {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Invisible Man,
+		StressChange	=	-40,
+		Icon	=	Book8,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_57,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedBrown_Ground,
+	}
+	
+		item Leaves_of_Grass {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Leaves of Grass,
+		StressChange	=	-40,
+		Icon	=	Book11,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_58,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedYellow_Ground,
+	}
+	
+		item The_Man_Without_Qualities {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Man Without Qualities,
+		StressChange	=	-40,
+		Icon	=	Book9,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_59,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedDarkCyan_Ground,
+	}
+	
+		item Hunger {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Hunger,
+		StressChange	=	-40,
+		Icon	=	Book3,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_60,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedLightGreen_Ground,
+	}
+	
+		item The_Book_of_Disquiet {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Book of Disquiet,
+		StressChange	=	-40,
+		Icon	=	Book10,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_61,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedGreen_Ground,
+	}
+	
+		item Dead_Souls {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Dead Souls,
+		StressChange	=	-40,
+		Icon	=	Book3,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_62,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedLightGreen_Ground,
+	}
+	
+		item The_Decameron {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Decameron,
+		StressChange	=	-40,
+		Icon	=	Book5,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_63,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedPurple_Ground,
+	}
+	
+		item The_Castle {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Castle,
+		StressChange	=	-40,
+		Icon	=	Book11,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_64,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedYellow_Ground,
+	}
+	
+		item The_Complete_Essays {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Complete Essays,
+		StressChange	=	-40,
+		Icon	=	Book,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_65,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedRedPink_Ground,
+	}
+	
+		item Demons {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Demons,
+		StressChange	=	-40,
+		Icon	=	Book9,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_66,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedDarkCyan_Ground,
+	}
+	
+		item Père_Goriot {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Père Goriot,
+		StressChange	=	-40,
+		Icon	=	Book3,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_67,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedLightGreen_Ground,
+	}
+	
+		item Gargantua_and_Pantagruel {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Gargantua and Pantagruel,
+		StressChange	=	-40,
+		Icon	=	Book9,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_68,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedDarkCyan_Ground,
+	}
+	
+		item The_Metamorphosis {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Metamorphosis,
+		StressChange	=	-40,
+		Icon	=	Book11,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_69,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedYellow_Ground,
+	}
+	
+		item The_Stranger {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Stranger,
+		StressChange	=	-40,
+		Icon	=	Book11,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_70,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedYellow_Ground
+	}
+
+		item Adventures_of_Huckleberry_Finn {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Adventures of Huckleberry Finn,
+		StressChange	=	-40,
+		Icon	=	Book3,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_71,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedLightGreen_Ground,
+	}
+
+
+		item The_Ginger_Man {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Ginger Man,
+		StressChange	=	-40,
+		Icon	=	Book8,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_72,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedBrown_Ground,
+	}
+
+
+		item The_Adventures_of_Pinocchio {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Adventures of Pinocchio,
+		StressChange	=	-40,
+		Icon	=	Book5,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_73,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedPurple_Ground,
+	}
+
+
+		item James_and_the_Giant_Peach {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: James and the Giant Peach,
+		StressChange	=	-40,
+		Icon	=	Book4,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_74,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedYellowBrown_Ground,
+	}
+
+
+		item Lust_for_Life {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Lust for Life,
+		StressChange	=	-40,
+		Icon	=	Book9,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_75,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedDarkCyan_Ground,
+	}
+
+
+		item Watership_Down {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Watership Down,
+		StressChange	=	-40,
+		Icon	=	Book7,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_76,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedGrey_Ground,
+	}
+
+
+		item East_of_Eden {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: East of Eden,
+		StressChange	=	-40,
+		Icon	=	Book4,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_77,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedYellowBrown_Ground,
+	}
+
+
+		item The_Canterbury_Tales {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Canterbury Tales,
+		StressChange	=	-40,
+		Icon	=	Book8,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_78,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedBrown_Ground,
+	}
+
+
+		item Moby-Dick {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Moby-Dick,
+		StressChange	=	-40,
+		Icon	=	Book5,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_79,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedPurple_Ground,
+	}
+
+
+		item Flowers_for_Algernon {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Flowers for Algernon,
+		StressChange	=	-40,
+		Icon	=	Book,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_80,
+        StaticModel = Book11,
+        WorldStaticModel = BookClosedYellow_Ground,
+	}
+
+
+		item Mansfield_Park {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Mansfield Park,
+		StressChange	=	-40,
+		Icon	=	Book7,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_81,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedGrey_Ground,
+	}
+
+
+		item One_Hundred_Years_of_Solitude {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: One Hundred Years of Solitude,
+		StressChange	=	-40,
+		Icon	=	Book5,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_82,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedPurple_Ground,
+	}
+
+
+		item Treasure_Island {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Treasure Island,
+		StressChange	=	-40,
+		Icon	=	Book8,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_83,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedBrown_Ground,
+	}
+
+
+		item The_Three_Musketeers {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Three Musketeers,
+		StressChange	=	-40,
+		Icon	=	Book4,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_84,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedYellowBrown_Ground,
+	}
+
+
+		item The_Old_Man_and_the_Sea {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Old Man and the Sea,
+		StressChange	=	-40,
+		Icon	=	Book7,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_85,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedGrey_Ground,
+	}
+
+
+		item The_Scarlet_Letter {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Scarlet Letter,
+		StressChange	=	-40,
+		Icon	=	Book3,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_86,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedLightGreen_Ground,
+	}
+
+
+		item Of_Mice_and_Men {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Of Mice and Men,
+		StressChange	=	-40,
+		Icon	=	Book3,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_87,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedLightGreen_Ground,
+	}
+
+
+		item Macbeth {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Macbeth,
+		StressChange	=	-40,
+		Icon	=	Book,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_88,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedRedPink_Ground,
+	}
+
+
+		item Alice's_Adventures_in_Wonderland {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Alice's Adventures in Wonderland,
+		StressChange	=	-40,
+		Icon	=	Book2,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_89,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedLightGreen_Ground,
+	}
+
+
+		item Through_the_Looking-Glass {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Through the Looking-Glass,
+		StressChange	=	-40,
+		Icon	=	Book4,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_90,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedYellowBrown_Ground,
+	}
+
+
+		item Persuasion {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Persuasion,
+		StressChange	=	-40,
+		Icon	=	Book7,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_91,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedGrey_Ground,
+	}
+
+
+		item The_Secret_Garden {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Secret Garden,
+		StressChange	=	-40,
+		Icon	=	Book2,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_92,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedLightBlue_Ground,
+	}
+
+
+		item Great_Expectations {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Great Expectations,
+		StressChange	=	-40,
+		Icon	=	Book11,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_93,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedYellow_Ground,
+	}
+
+
+		item Dracula {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Dracula,
+		StressChange	=	-40,
+		Icon	=	Book,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_94,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedRedPink_Ground,
+	}
+	
+		item The_Count_of_Monte_Cristo {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Count of Monte Cristo,
+		StressChange	=	-40,
+		Icon	=	Book4,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_95,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedYellowBrown_Ground,
+	}
+
+
+		item Hamlet {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Hamlet,
+		StressChange	=	-40,
+		Icon	=	Book8,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_96,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedBrown_Ground,
+	}
+
+
+		item Romeo_and_Juliet {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Romeo and Juliet,
+		StressChange	=	-40,
+		Icon	=	Book5,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_97,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedPurple_Ground, 
+	}
+
+
+		item The_Diary_of_a_Young_Girl {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Diary of a Young Girl,
+		StressChange	=	-40,
+		Icon	=	Book7,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_98,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedGrey_Ground,
+	}
+
+
+		item Factotum {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: Factotum,
+		StressChange	=	-40,
+		Icon	=	Book7,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_99,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedGrey_Ground,
+	}
+
+
+		item The_Art_of_War {
+	    DisplayCategory = Literature,
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-20,
+		DisplayName	=	Book: The Art of War,
+		StressChange	=	-40,
+		Icon	=	Book,
+		BoredomChange	=	-50,
+        Tooltip   =   Tooltip_book_100,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedRedPink_Ground,
+	}
+
+
+}
