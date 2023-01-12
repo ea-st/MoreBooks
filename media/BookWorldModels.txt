@@ -1,0 +1,41 @@
+// 10 OF EACH //
+
+// BookYellowBrown_Ground
+// BookClosedYellowBrown_Ground
+// Book4
+
+// BookPurple_Ground
+// BookClosedPurple_Ground
+// Book5
+
+// BookBrown_Ground
+// BookClosedBrown_Ground
+// Book8
+
+// BookYellow_Ground
+// BookClosedYellow_Ground
+// Book11
+
+// BookLightBlue_Ground
+// BookClosedLightBlue_Ground
+// Book2
+
+// BookRedPink_Ground
+// BookClosedRedPink_Ground
+// Book6
+
+// BookGrey_Ground
+// BookClosedGrey_Ground
+// Book7
+
+// BookDarkCyan_Ground
+// BookClosedDarkCyan_Ground
+// Book9
+
+// BookLightGreen_Ground
+// BookClosedLightGreen_Ground
+// Book3
+
+// BookGreen_Ground
+// BookClosedGreen_Ground
+// Book10
