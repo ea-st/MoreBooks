@@ -23,7 +23,7 @@ Does not replace "Book".
 
 [east](https://steamcommunity.com/profiles/76561198867427025/)
 
-*(If there are any issues please open a issue report or comment them)*
+*(If there are any issues please open a issue report or comment them on [steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2815857931))*
 
 
 ----------------------------------------
