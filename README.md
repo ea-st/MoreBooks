@@ -13,7 +13,7 @@ More Books adds [100 Pre-July 1993 books](https://pastebin.com/NiDsbH2D) *(When 
 They come in 10 different colors and don't use any additional assets.
 Does not replace "Book".
 
-![formattingexample](https://i.imgur.com/KUCY781.png)<br>
+![formattingexample](https://codeberg.org/east/MoreBooks/raw/branch/main/images/bookexample.png)<br>
 *(Example of formatting.)*
 
 
@@ -28,7 +28,7 @@ Does not replace "Book".
 
 ----------------------------------------
 
-![logo](https://i.imgur.com/2sobGMq.gif)
+![logo](https://codeberg.org/east/MoreBooks/raw/branch/main/images/morebooks.gif)
 
  >Do *not* re-upload the mod without [explicit permission.](http://theindiestone.com/forums/index.php/topic/2530-mod-permissions/?p=36478)
 Any themes, ideas, and messages in the real life books do not reflect the creators views, and the books present were choosen off lists.
